@@ -1,11 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <script src="javascript.js"></script>   
-</body>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scissors Paper Rock</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+    </style>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container">
+        <img class="logo-img" src="icons/rock-paper-scissors.png" />
+        <div>
+          <h1>scissors paper rock</h1>
+          <p class="score-heading">Best of 5</p>
+        </div>
+      </div>
+    </header>
+    <div class="cards-container">
+      <div class="card">
+        <img id="scissors-img" data-value="scissors" src="icons/scissors.png" />
+        <p class="card-text">Scissors</p>
+      </div>
+      <div class="card">
+        <img id="paper-img" data-value="paper" src="icons/paper.png" />
+        <p class="card-text">Paper</p>
+      </div>
+      <div class="card">
+        <img id="rock-img" data-value="rock" src="icons/rock.png" />
+        <p class="card-text">Rock</p>
+      </div>
+    </div>
+    <div class="message-container">
+      <h2 id="message">Make a selection to begin</h2>
+    </div>
+    <div class="scores-container">
+      <div class="playerscore-container">
+        <p class="score-heading">Your Score</p>
+        <p id="players-score">0</p>
+      </div>
+      <div class="playerscore-container">
+        <p class="score-heading">Computer Score</p>
+        <p id="computers-score">0</p>
+      </div>
+    </div>
+    <script src="javascript.js"></script>
+  </body>
 </html>
+
+<!-- 
+
+images from <a href="https://www.flaticon.com/free-icons/rock-paper-scissors" title="rock paper scissors icons">Rock paper scissors icons created by Freepik - Flaticon</a>
+
+<a href="https://www.vecteezy.com/free-vector/rock-paper-scissors">Rock Paper Scissors Vectors by Vecteezy</a>
+
+-->

@@ -1,0 +1,95 @@
+* {
+  /*
+  border: 1px solid red;
+  */
+}
+
+body {
+  padding: 0px;
+  background-color: #6204b5;
+}
+.container {
+  background-color: #6204b5;
+  width: 960px;
+  max-width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.logo-img {
+  max-width: 100px;
+  height: auto;
+  padding: 15px;
+}
+.main-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+h1 {
+  font-family: "Press Start 2P", cursive;
+  color: white;
+}
+h2 {
+  font-family: "Press Start 2P", cursive;
+  color: white;
+}
+.cards-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.card {
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  
+}
+
+.card img {
+  height: auto;
+  width: 200px;
+  border-radius: 10px;
+}
+.card-text {
+  max-width: 200px;
+  font-family: "Press Start 2P", cursive;
+  text-align: center;
+}
+.message-container {
+
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 960px;
+  margin: 30px auto;
+
+}
+
+.message-content, .score-heading {
+
+  font-family: "Press Start 2P", cursive;
+  color: white;
+}
+.scores-container {
+  display: flex;
+  justify-content: space-evenly;
+ 
+  flex-wrap: wrap;
+  max-width: 960px;
+  margin: 0 auto;
+}
+#players-score, #computers-score {
+
+  font-family: "Press Start 2P", cursive;
+  color: white;
+  text-align:center;
+  font-size: 100px;
+  margin-top: 40px;
+}
