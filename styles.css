@@ -36,6 +36,12 @@ h2 {
   font-family: "Press Start 2P", cursive;
   color: white;
 }
+.credits,
+a {
+  color: white;
+  font-size: small;
+  font-family: sans-serif;
+}
 .cards-container {
   display: flex;
   justify-content: space-evenly;
@@ -48,7 +54,6 @@ h2 {
   background-color: white;
   border-radius: 20px;
   padding: 20px;
-  
 }
 
 .card img {
@@ -62,34 +67,32 @@ h2 {
   text-align: center;
 }
 .message-container {
-
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
   gap: 30px;
   max-width: 960px;
   margin: 30px auto;
-
 }
 
-.message-content, .score-heading {
-
+.message-content,
+.score-heading {
   font-family: "Press Start 2P", cursive;
   color: white;
 }
 .scores-container {
   display: flex;
   justify-content: space-evenly;
- 
+
   flex-wrap: wrap;
   max-width: 960px;
   margin: 0 auto;
 }
-#players-score, #computers-score {
-
+#players-score,
+#computers-score {
   font-family: "Press Start 2P", cursive;
   color: white;
-  text-align:center;
+  text-align: center;
   font-size: 100px;
   margin-top: 40px;
 }
